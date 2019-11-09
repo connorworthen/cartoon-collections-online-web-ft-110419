@@ -8,8 +8,13 @@ end
 
 
 def long_planeteer_calls(array)
-  array.include? {|s| s.size <= 4 }
+  array.each do |str|
+    return true if str.size <= 4
+  end
+
+  false
 end
+
 
 
 
