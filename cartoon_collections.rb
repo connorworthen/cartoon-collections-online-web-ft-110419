@@ -1,12 +1,8 @@
 def roll_call_dwarves(array)
-  if block_given?
-  i = 0
-
   roll_call_dwarves = []
-  while i < array.length
-      my_each << yield(array[i])
-      i += 1
-    end
+  (0..7).each do |n|
+    puts "#{n}"
+  end
 
 
     array
