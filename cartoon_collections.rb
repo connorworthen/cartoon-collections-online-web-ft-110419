@@ -8,7 +8,11 @@ end
 
 
 def long_planeteer_calls(array)
-  array.select {|word| word >= 4 }
+  words.each do |str|
+    return false unless str.size >= 4
+  end
+
+  true
 end
 
 def find_the_cheese# code an argument here
