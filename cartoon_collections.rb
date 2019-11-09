@@ -10,9 +10,10 @@ end
 def long_planeteer_calls(array)
   array.each do |str|
     return true unless str.size <= 4
-  else
+  if
     return false if str.size <= 4
   end
+end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
