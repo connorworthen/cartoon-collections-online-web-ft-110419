@@ -9,7 +9,7 @@ end
 
 def long_planeteer_calls(array)
   array.each do |str|
-    return true unless str.size <= 4
+    return true if str.size <= 4
   end
 
   true
