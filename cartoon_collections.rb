@@ -8,7 +8,7 @@ end
 
 
 def long_planeteer_calls(array)
-  array.select {|a| a > 3 }
+  array.select {|word| word >= 4 }
 end
 
 def find_the_cheese# code an argument here
