@@ -1,6 +1,18 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(array)
+  if block_given?
+  i = 0
+
+  roll_call_dwarves = []
+  while i < array.length
+      my_each << yield(array[i])
+      i += 1
+    end
+
+
+    array
+  end
 end
+
 
 def summon_captain_planet# code an argument here
   # Your code here
