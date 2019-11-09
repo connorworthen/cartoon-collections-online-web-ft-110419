@@ -8,7 +8,7 @@ end
 
 
 def long_planeteer_calls(array)
-  array.all? {|s| s.size <= 4 }
+  array.include? {|s| s.size <= 4 }
 end
 
 
