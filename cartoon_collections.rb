@@ -3,7 +3,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.map! { |x, i| i.capitalize + x + "!" }
+  array.split.map { |i| i.capitalize }.join(" ! ")
 end
 
 
